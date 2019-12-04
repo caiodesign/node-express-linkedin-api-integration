@@ -1,4 +1,4 @@
-const Linkedin = require('node-linkedin')('86darik9kvc9sb', 'osg0NmNIpErRxRun', 'http://localhost:3000/oauth/callback');
+const Linkedin = require('node-linkedin')('client-id', 'client-secret', 'http://localhost:3000/oauth/callback');
 const express = require('express');
 const path = require('path');
 const router = express.Router();
